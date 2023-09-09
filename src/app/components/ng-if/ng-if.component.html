@@ -1,0 +1,38 @@
+<!--
+<div>
+<h2>ng-if works!</h2>
+<input type="checkbox" (change)="changestate()">
+
+
+<div *ngIf="active">
+    
+    <h3 >We are learning Angular</h3>
+
+</div>
+
+</div>
+-->
+<div>
+    <h2>ng-if works!</h2>
+    <input type="checkbox" (change)="changestate()">
+    
+    
+    <div *ngIf="count; else elseblock">
+        
+        <h3 >Count value is greater than 1 i. e.{{count}}</h3>
+    
+    </div>
+    <ng-template #elseblock>
+        <h3>Count value is not greater than 1</h3>
+    </ng-template>
+    </div>
+
+
+
+
+
+
+
+
+
+

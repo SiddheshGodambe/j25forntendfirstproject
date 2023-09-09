@@ -1,0 +1,74 @@
+<!-- <div>
+
+<h2>ng-switch </h2>
+<div [ngSwitch]="number" name="number">
+    <select [(ngModel)]="number">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    </select>
+
+    <div *ngSwitchCase="1">
+        <h3>One</h3>
+    </div>
+
+    <div *ngSwitchCase="2">
+        <h3>Two</h3>
+    </div>
+
+    <div *ngSwitchCase="3">
+        <h3>Three</h3>
+    </div>
+
+    <div *ngSwitchCase="4">
+        <h3>Four</h3>
+    </div>
+    <div *ngSwitchDefault="Invalid">
+        <h3>Invalid</h3>
+    </div>
+</div>
+</div> -->
+
+<div>
+<h2>Days In week</h2>
+<div [ngSwitch]="day">
+        <select [(ngModel)]="day">
+            <option value="Monday">Monday</option>
+            <option value="Tuesday">Tuesday</option>
+            <option value="Wednesday">Wednesday</option>
+            <option value="Thursday">Thursday</option>
+            <option value="Friday">Friday</option>
+            <option value="Saturday">Saturday</option>
+            <option value="Sunday">Sunday/option>
+            
+    </select>
+
+    <div *ngSwitchCase="'Monday'">
+        <h3>This is Monday</h3>
+    </div>
+
+    <div *ngSwitchCase="'Tuesday'">
+        <h3>This is Tuesday</h3>
+    </div>
+
+    <div *ngSwitchCase="'Wednesday'">
+        <h3>This is Wednesday</h3>
+    </div>
+    <div *ngSwitchCase="'Thursday'">
+        <h3>This is Thursday</h3>
+    </div>
+
+    <div *ngSwitchCase="'Friday'">
+        <h3>This is Friday</h3>
+    </div>
+
+    <div *ngSwitchCase="'Saturday'">
+        <h3>This is Saturday</h3>
+    </div>
+    <div *ngSwitchCase="'Sunday'">
+        <h3>This is Sunday</h3>
+    </div>
+  
+</div>
+</div>

@@ -1,0 +1,38 @@
+<!-- <div>
+    <h3>ngFor directives</h3>
+    <ul *ngFor ="let c of city">
+<li>{{c}}</li>
+</ul>
+
+
+</div> -->
+<!-- <div>
+    <h3>ngFor example for obj access</h3>
+    
+    <div class="list"   *ngFor ="let s of students">
+        <h3>{{s.name}}</h3>
+        <h3>{{s.phone}}</h3>
+        <h3>{{s.branch}}</h3>
+
+    </div>
+
+
+</div> -->
+<h3>ngFor directives</h3>
+<table>
+    <thead>
+        <tr>
+            <th>name</th>
+            <th>phone</th>
+            <th>branch</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let s of students">
+            <td>{{s.name}}</td>
+            <td>{{s.phone}}</td>
+            <td>{{s.branch}}</td>
+
+        </tr>
+    </tbody>
+</table>

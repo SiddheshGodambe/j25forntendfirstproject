@@ -1,0 +1,21 @@
+.list{
+    border: 10px solid rebeccapurple;
+    font-size: 20px;
+    margin-bottom: 3px;
+    padding: 10px;
+    text-align:center;
+    background-color:wheat;
+}
+.t{
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    margin-left: 50px;
+}
+table,th,td{
+    border: 4px solid black;
+    border-collapse: collapse;
+    background-color: aquamarine;
+    margin: auto;
+    font-size: 40px;
+}
